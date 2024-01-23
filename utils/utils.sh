@@ -12,7 +12,7 @@
 export DEFAULT_BRANCH=master
 # Using this weird seemingly arbitrary path to avoid path issues. 
 # Please let me know the _right_ way to do this
-source ../utils/make-exercise-repo.sh
-source ../utils/make-fake-remote.sh
-source ../utils/clone-remote-to-exercise.sh
-source ../utils/make-setup.sh
+source /var/hidden/git-katas/utils/make-exercise-repo.sh
+source /var/hidden/git-katas/utils/make-fake-remote.sh
+source /var/hidden/git-katas/utils/clone-remote-to-exercise.sh
+source /var/hidden/git-katas/utils/make-setup.sh

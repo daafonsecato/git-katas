@@ -2,7 +2,7 @@
 kata="kata2-squashing"
 
 # Include utils
-source ../utils/utils.sh
+source /var/hidden/git-katas/utils/utils.sh
 
 make-exercise-repo
 

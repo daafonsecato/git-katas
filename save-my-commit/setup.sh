@@ -3,7 +3,7 @@
 kata="kata6-save-my-commit"
 
 # Include utils
-source ../utils/utils.sh
+source /var/hidden/git-katas/utils/utils.sh
 
 make-exercise-repo
 

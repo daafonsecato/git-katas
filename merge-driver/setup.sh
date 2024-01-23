@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Include utils
-source ../utils/utils.sh
+source /var/hidden/git-katas/utils/utils.sh
 
 kata="merge-driver"
 make-exercise-repo
 
-cp ../../utils/resources/merge-tst-files.sh merge-tst-files.sh
+cp ..//var/hidden/git-katas/utils/resources/merge-tst-files.sh merge-tst-files.sh
 git add merge-tst-files.sh
 git commit -m"Add merge-tst-files.sh"
 

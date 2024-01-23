@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Include utils
-source ../utils/utils.sh
+source /var/hidden/git-katas/utils/utils.sh
 
 kata="merge-mergesort"
 make-exercise-repo

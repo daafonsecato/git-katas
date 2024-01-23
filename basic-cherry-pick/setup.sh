@@ -3,7 +3,7 @@
 # kata: basic-cherry-pick
 
 # Include utils
-source ../utils/utils.sh
+source /var/hidden/git-katas/utils/utils.sh
 
 pre-setup # Make exercise repo, and setup necessary.
 

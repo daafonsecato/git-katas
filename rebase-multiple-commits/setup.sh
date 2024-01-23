@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Source utils
-source ../utils/utils.sh
+source /var/hidden/git-katas/utils/utils.sh
 
 # Prep repo
 kata="rebase-multiple-commits"

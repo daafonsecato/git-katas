@@ -2,7 +2,7 @@
 
 # Include utils
 
-source ../utils/utils.sh
+source /var/hidden/git-katas/utils/utils.sh
 
 make-exercise-repo
 echo "foo" > foo.txt

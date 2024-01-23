@@ -2,7 +2,7 @@
 kata="submodules"
 
 # Include utils
-source ../utils/utils.sh
+source /var/hidden/git-katas/utils/utils.sh
 
 # First cleanup if there is an old exercise folder
 rm -rf exercise

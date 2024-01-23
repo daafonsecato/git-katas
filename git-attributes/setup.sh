@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Include utils
-source ../utils/utils.sh
+source /var/hidden/git-katas/utils/utils.sh
 
 kata="git-attributes"
 make-exercise-repo

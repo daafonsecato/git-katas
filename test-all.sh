@@ -33,7 +33,7 @@ function test-setup (){
   for script in ${scripts}; do
     ((total++))
     cd "$(dirname "${script}")" || exit
-    $RUNSHELL  ../utils/test/test_setup.sh setup.sh 2>&1
+    $RUNSHELL  /var/hidden/git-katas/utils/test/test_setup.sh setup.sh 2>&1
     exit_code=$?
     if [ ${exit_code} -ne 0 ]; then
       return_code=${exit_code}
